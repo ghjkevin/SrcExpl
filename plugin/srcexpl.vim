@@ -1077,7 +1077,8 @@ function! <SID>SrcExpl_ListMultiDefs(list, len)
     endif
 
     " Is the tags file in the current directory ?
-    if tagfiles()[0] ==# "tags"
+    " if tagfiles()[0] ==# "tags"
+    if 0
         " We'll get the operating system environment
         " in order to judge the slash type
         if s:SrcExpl_isWinOS == 1
